@@ -37,6 +37,7 @@ Set-up either a local mongoDB instance or create a [cloud-hosted instance](https
 ```
   MONGO_URI=<YOUR_MONGODB_URI>
   JWT_SECRET=<YOUR_JWT_SECRET>
+  JWT_TOKEN_EXPIRES_IN=<YOUR_JWT_EXPIRATION_TIME>
   PORT=<YOUR_SERVER_PORT>
   NODE_ENV=development
   SMTP_HOST=<YOUR_SMTP_HOST>
